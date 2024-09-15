@@ -2,14 +2,20 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": "Arm Debugger (Attach)",
+      "type": "arm-debugger",
+      "request": "attach",
+      "address": "Websocket (ws://<host>:<port>) or socket (<host>:<port>) to connect to"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/manish/Documents/code",
-      "program": "/home/manish/Documents/code/build/Debug/outDebug",
+      "cwd": "/home/manish/Documents/code/.vscode/c++",
+      "program": "/home/manish/Documents/code/.vscode/c++/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
